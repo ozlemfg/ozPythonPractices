@@ -1,6 +1,6 @@
-# Create an Account with user name and password
+# create an Account with user name and password
 # user name is alphanumeric and between 5-10 char
-# password is min 6 max 10 char, contains at least 1 capital letter and 1 digital
+# password is min 6 max 10 char, contains at least 1 capital letter and 1 number
 # login attempt is max 3
 
 def set_username():
@@ -71,10 +71,10 @@ def login(stored_username, stored_pwd):
 
 your_user_name = valid_username()
 your_password = check_password()
-
 print(f"your username is: {your_user_name} and your password is: {your_password}")
 
-print("LOGIN WITH YOUR CREDENTIALS")
+print("** LOGIN WITH YOUR CREDENTIALS **")
 login(your_user_name, your_password)
+
 
 
